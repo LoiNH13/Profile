@@ -8,7 +8,7 @@ export interface Basics extends Contact {
   name: string;
   title: string;
   summary: string;
-  avatar: string | null;
+  avatar: string | any;
 }
 
 export interface Skills {
