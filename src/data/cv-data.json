@@ -1,0 +1,74 @@
+{
+  "basics": {
+    "name": "Nguyen Huu Loi",
+    "title": "Senior Fresher Developer",
+    "email": "loinguyen.217798@gmail.com",
+    "phone": "+84858217798",
+    "location": "Ho Chi Minh City",
+    "summary": "Experienced software engineer with a passion for building scalable applications and mentoring teams. Specialized in React, Node.js, and cloud technologies.",
+    "avatar": null
+  },
+  "skills": {
+    "technical": [
+      "JavaScript/TypeScript",
+      "React.js",
+      "Node.js",
+      "Python",
+      "AWS",
+      "Docker"
+    ],
+    "soft": [
+      "Team Leadership",
+      "Project Management",
+      "Technical Writing",
+      "Problem Solving"
+    ]
+  },
+  "experience": [
+    {
+      "company": "Tech Solutions Inc.",
+      "position": "Senior Software Engineer",
+      "startDate": "2020",
+      "endDate": "Present",
+      "highlights": [
+        "Led a team of 5 developers in building a microservices architecture",
+        "Reduced system response time by 40% through optimization",
+        "Implemented CI/CD pipeline reducing deployment time by 60%"
+      ]
+    },
+    {
+      "company": "Digital Innovations Co.",
+      "position": "Software Engineer",
+      "startDate": "2017",
+      "endDate": "2020",
+      "highlights": [
+        "Developed and maintained multiple React applications",
+        "Mentored junior developers",
+        "Implemented automated testing increasing code coverage to 85%"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of Technology",
+      "degree": "Bachelor of Science in Computer Science",
+      "year": "2017",
+      "achievements": [
+        "Graduated with Honors",
+        "President of Computer Science Society"
+      ]
+    }
+  ],
+  "certifications": [
+    {
+      "name": "AWS Certified Solutions Architect",
+      "issuer": "Amazon Web Services",
+      "year": "2021"
+    },
+    {
+      "name": "Professional Scrum Master",
+      "issuer": "Scrum.org",
+      "year": "2020"
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+@layer components {
+  .section-title {
+    @apply text-2xl font-bold text-gray-800 mb-4;
+  }
+
+  .card {
+    @apply bg-white p-8 shadow-lg rounded-lg;
+  }
+
+  .skill-tag {
+    @apply px-3 py-1 rounded-full text-sm;
+  }
+
+  .skill-tag-technical {
+    @apply bg-gray-100 text-gray-700;
+  }
+
+  .skill-tag-soft {
+    @apply bg-blue-50 text-blue-700;
+  }
+}
+
+/* Print-specific styles */
+@page {
+  margin: 2cm;
+  size: A4;
+}
+
+@media print {
+  /* Hide non-content elements */
+  nav, footer, .print-hide {
+    display: none !important;
+  }
+
+  /* Reset background and shadows */
+  body {
+    background: none;
+    margin: 0;
+    padding: 0;
+    print-color-adjust: exact;
+    -webkit-print-color-adjust: exact;
+  }
+
+  /* Content specific print styles */
+  .content-wrapper {
+    padding: 0 !important;
+    margin: 0 !important;
+    background: none !important;
+  }
+
+  .card {
+    box-shadow: none !important;
+    border: none !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    background: none !important;
+  }
+
+  /* Ensure proper page breaks */
+  section {
+    page-break-inside: avoid;
+    break-inside: avoid;
+  }
+
+  h1, h2, h3 {
+    page-break-after: avoid;
+    break-after: avoid;
+  }
+
+  /* Optimize font sizes for print */
+  html {
+    font-size: 12pt;
+  }
+
+  /* Ensure links are readable */
+  a {
+    text-decoration: none !important;
+    color: inherit !important;
+  }
+
+  /* Optimize colors for print */
+  .skill-tag {
+    border: 1px solid #666 !important;
+    background: none !important;
+    color: black !important;
+  }
+}

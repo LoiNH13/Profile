@@ -1,0 +1,74 @@
+{
+  "basics": {
+    "name": "Nguyễn Hữu Lợi",
+    "title": "Lập Trình Viên Senior Fresher",
+    "email": "loinguyen.217798@gmail.com",
+    "phone": "+84858217798",
+    "location": "Thành phố Hồ Chí Minh",
+    "summary": "Kỹ sư phần mềm có kinh nghiệm với niềm đam mê xây dựng các ứng dụng có khả năng mở rộng và hướng dẫn đội ngũ. Chuyên về React, Node.js và công nghệ đám mây.",
+    "avatar": null
+  },
+  "skills": {
+    "technical": [
+      "JavaScript/TypeScript",
+      "React.js",
+      "Node.js",
+      "Python",
+      "AWS",
+      "Docker"
+    ],
+    "soft": [
+      "Lãnh đạo nhóm",
+      "Quản lý dự án",
+      "Viết tài liệu kỹ thuật",
+      "Giải quyết vấn đề"
+    ]
+  },
+  "experience": [
+    {
+      "company": "Tech Solutions Inc.",
+      "position": "Kỹ sư phần mềm cao cấp",
+      "startDate": "2020",
+      "endDate": "Hiện tại",
+      "highlights": [
+        "Dẫn dắt nhóm 5 lập trình viên xây dựng kiến trúc microservices",
+        "Giảm thời gian phản hồi hệ thống 40% thông qua tối ưu hóa",
+        "Triển khai CI/CD pipeline giảm thời gian triển khai 60%"
+      ]
+    },
+    {
+      "company": "Digital Innovations Co.",
+      "position": "Kỹ sư phần mềm",
+      "startDate": "2017",
+      "endDate": "2020",
+      "highlights": [
+        "Phát triển và bảo trì nhiều ứng dụng React",
+        "Hướng dẫn các lập trình viên junior",
+        "Triển khai kiểm thử tự động tăng độ phủ code lên 85%"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Đại học Công nghệ",
+      "degree": "Cử nhân Khoa học Máy tính",
+      "year": "2017",
+      "achievements": [
+        "Tốt nghiệp loại Giỏi",
+        "Chủ tịch Hội Sinh viên Khoa học Máy tính"
+      ]
+    }
+  ],
+  "certifications": [
+    {
+      "name": "AWS Certified Solutions Architect",
+      "issuer": "Amazon Web Services",
+      "year": "2021"
+    },
+    {
+      "name": "Professional Scrum Master",
+      "issuer": "Scrum.org",
+      "year": "2020"
+    }
+  ]
+}
