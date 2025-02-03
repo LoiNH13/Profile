@@ -10,12 +10,11 @@
   },
   "skills": {
     "technical": [
-      "JavaScript/TypeScript",
-      "React.js",
-      "Node.js",
-      "Python",
-      "AWS",
-      "Docker"
+      "Dot NET",
+      "SQL",
+      "JavaScript",
+      "Docker",
+      "AWS"
     ],
     "soft": [
       "Lãnh đạo nhóm",
@@ -26,49 +25,31 @@
   },
   "experience": [
     {
-      "company": "Tech Solutions Inc.",
-      "position": "Kỹ sư phần mềm cao cấp",
-      "startDate": "2020",
+      "company": "Công ty Cổ phần Bản Đồ Việt",
+      "position": "Kỹ sư phần mềm",
+      "startDate": "2022",
       "endDate": "Hiện tại",
       "highlights": [
-        "Dẫn dắt nhóm 5 lập trình viên xây dựng kiến trúc microservices",
-        "Giảm thời gian phản hồi hệ thống 40% thông qua tối ưu hóa",
-        "Triển khai CI/CD pipeline giảm thời gian triển khai 60%"
-      ]
-    },
-    {
-      "company": "Digital Innovations Co.",
-      "position": "Kỹ sư phần mềm",
-      "startDate": "2017",
-      "endDate": "2020",
-      "highlights": [
-        "Phát triển và bảo trì nhiều ứng dụng React",
-        "Hướng dẫn các lập trình viên junior",
-        "Triển khai kiểm thử tự động tăng độ phủ code lên 85%"
+        "Hổ trợ dẫn dắt nhóm 5 lập trình viên xây dựng các apps nội bộ của công ty",
+        "Tích hợp với hệ thống của bên thứ 3 như Odoo, VNPay, ESMS, ..."
       ]
     }
   ],
   "education": [
     {
-      "institution": "Đại học Công nghệ",
-      "degree": "Cử nhân Khoa học Máy tính",
-      "year": "2017",
+      "institution": "Đại học Tôn Đức Thắng",
+      "degree": "Cử nhân Kỹ thuật phần mềm",
+      "year": "2024",
       "achievements": [
-        "Tốt nghiệp loại Giỏi",
-        "Chủ tịch Hội Sinh viên Khoa học Máy tính"
+        "Tốt nghiệp loại Khá"
       ]
     }
   ],
   "certifications": [
     {
-      "name": "AWS Certified Solutions Architect",
-      "issuer": "Amazon Web Services",
-      "year": "2021"
-    },
-    {
-      "name": "Professional Scrum Master",
-      "issuer": "Scrum.org",
-      "year": "2020"
+      "name": "TOEIC (670 điểm)",
+      "issuer": "IIG Việt Nam",
+      "year": "2023"
     }
   ]
 }
